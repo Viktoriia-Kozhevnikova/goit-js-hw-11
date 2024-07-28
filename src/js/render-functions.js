@@ -40,7 +40,6 @@ export function displayImages(data, gallery) {
                 <li class="properties"><p class="text"><strong>Downloads</strong> ${image.downloads}</p></li>
             </ul>
         `;
-
         link.appendChild(img);
         link.appendChild(info);
         li.appendChild(link);
