@@ -58,67 +58,6 @@ function formSubmit(event) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-// import { fetchImages } from "./js/pixabay-api.js";
-// import { showLoader, hideLoader, checkButtonState, displayImages } from"./js/render-functions.js";
-
-// const form = document.querySelector(".form");
-// const input = document.querySelector(".search");
-// const button = document.querySelector(".btn");
-// const loader = document.querySelector(".loader");
-// const gallery = document.querySelector(".gallery");
-
-// input.addEventListener("input", () => checkButtonState(input, button));
-// form.addEventListener("submit", (event) => {
-//     event.preventDefault();
-//     const query = input.value.trim();
-
-//     if (query === "") {
-//         iziToast.error({
-//             title: "Error",
-//             message: "Please enter a search query.",
-//             timeout: 3000,
-//             position: "topRight"
-//         });
-//         return;
-//     }
-
-//     showLoader(loader);
-//     fetchImages(query)
-//         .then((data) => {
-//             displayImages(data, gallery);
-//         })
-//         .catch(() => {
-//             iziToast.error({
-//                 title: "Error",
-//                 message: "An error occurred while fetching images. Please try again!",
-//                 timeout: 3000,
-//                 position: "topRight"
-//             });
-//         })
-//         .finally(() => {
-//             hideLoader(loader);
-//         });
-// });
-
-
-
-
-
-
-
-
-
-
 // import iziToast from "izitoast";
 // import "izitoast/dist/css/iziToast.min.css";
 // import SimpleLightbox from "simplelightbox";
