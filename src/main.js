@@ -6,7 +6,6 @@ const input = document.querySelector(".search");
 const button = document.querySelector(".btn");
 const loader = document.querySelector(".loader");
 const gallery = document.querySelector(".gallery");
-let lightbox;
 
 input.addEventListener("input", checkButtonState);
 form.addEventListener("submit", formSubmit);
@@ -55,7 +54,6 @@ function formSubmit(event) {
             hideLoader();
         });
 }
-
 
 
 // import iziToast from "izitoast";
